@@ -1,10 +1,15 @@
 # Smart-Irrigation-System
 
 Connect the gnd of Soil sensor with gnd of Arduino.
+
 Connect Vcc with 5v of Arduino.
-Connect A0 with an analog pin(A0 here) of arduino here, if you need the value, else you may use the digital pin
+
+Connect A0 with an analog pin(A0 here) of arduino here, if you need the value, else you may use the digital pin.
+
 Connect your ardino board with usb port of pi.
+
 Install Arduino on your pi and compile the arduinofinal file.
+
 The four motor pins are only for testing purpose in case you want to run a pump or motor if the water level falls below 40%(or any pre-defined value you wish to set. Just be sure to make changes in both the seria_port.py and the arduino file for the value).
 
 For visual results, connect the four pins of stepper motor as in the code.
@@ -15,6 +20,8 @@ For visual results, connect the four pins of stepper motor as in the code.
 
 Select the board and port from Arduino.
 Upload arduino code from Arduino.
+
+
 Open seria_port.py on pi.
 Fill in the parameters from way2sms for sms utility.
 
