@@ -38,6 +38,6 @@ The system may be expanded to one with multiple Pi(s) as well for a bigger garde
 Finally, you may connect a pump and irrigate the needed areas manually or autonomously through a motor driver.
 
 
-Languages Used:- Python 3.6, CPP(for arduino).
+Languages Used:- Python 3.6 and CPP(for arduino).
 
 
